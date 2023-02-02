@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+background-color: rgb(153, 183, 207);
+}
+.recent-posts {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+h1{
+color: darkblue;
+}
+.recent-posts h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+a{
+text-decoration: none;
+font-style: oblique;
+}
+.post-card {
+  font-size: 24px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+  transition: transform 0.2s;
+}
+
+.post-card p{
+color: rgb(55, 69, 64);
+}
+
+.post-card:hover {
+  transform: translateY(-10px);
+}
+
+img{
+width: 100%;
+}
